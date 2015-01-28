@@ -1,0 +1,435 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+Alias	NMR/Alias.py	/^class Alias:$/;"	c
+Atom	molecule/Atom.py	/^class Atom:$/;"	c
+Builder	molecule/Builder.py	/^class Builder:$/;"	c
+Chain	molecule/Chain.py	/^class Chain:$/;"	c
+Fragment	fragments/Fragment.py	/^class Fragment:$/;"	c
+FragmentLibrary	fragments/Fragment.py	/^class FragmentLibrary:$/;"	c
+FragmentPosition	fragments/Fragment.py	/^class FragmentPosition:$/;"	c
+Gnuplot	plotting/Gnuplot.py	/^class Gnuplot:$/;"	c
+InteractionGraph	molecule/InteractionGraph.py	/^class InteractionGraph:$/;"	c
+Molecule	molecule/Molecule.py	/^class Molecule:$/;"	c
+NMRatom	NMR/NMRatom.py	/^class NMRatom:$/;"	c
+NMRresidue	NMR/NMRresidue.py	/^class NMRresidue:$/;"	c
+NMRspectrum	NMR/NMRspectrum.py	/^class NMRspectrum:$/;"	c
+PeriodicTable	molecule/PeriodicTable.py	/^class PeriodicTable:$/;"	c
+ProteinLibrary	molecule/ProteinLibrary.py	/^class ProteinLibrary:$/;"	c
+Residue	molecule/Residue.py	/^class Residue:$/;"	c
+ResidueProperties	molecule/ResidueProperties.py	/^class ResidueProperties:$/;"	c
+Rotamer	molecule/Rotamer.py	/^class Rotamer:$/;"	c
+RotamerLibrary	molecule/RotamerSet.py	/^class RotamerLibrary:$/;"	c
+RotamerSet	molecule/RotamerSet.py	/^class RotamerSet:$/;"	c
+SSelement	molecule/SecondaryStructure.py	/^class SSelement:$/;"	c
+SecondaryStructure	molecule/SecondaryStructure.py	/^class SecondaryStructure:$/;"	c
+Selection	molecule/Selection.py	/^class Selection:$/;"	c
+TIM	functions/TIM.py	/^class TIM:$/;"	c
+Topology	molecule/Topology.py	/^class Topology:$/;"	c
+TorsionAngle	molecule/Torsions.py	/^class TorsionAngle:$/;"	c
+Torsions	molecule/Torsions.py	/^class Torsions:$/;"	c
+__add__	molecule/vector3d.py	/^	def __add__(self, rhs):$/;"	m	class:vector3d	file:
+__cmp__	molecule/InteractionGraph.py	/^	def __cmp__(self,other):$/;"	m	class:two_body_interaction	file:
+__cmp__	molecule/ligand_atom.py	/^	def __cmp__(self, other):$/;"	m	class:ligand_atom	file:
+__determineElement	molecule/Molecule.py	/^	def __determineElement(self, atom):$/;"	m	class:Molecule	file:
+__div__	molecule/vector3d.py	/^	def __div__(self, rhs):$/;"	m	class:vector3d	file:
+__eq__	molecule/vector3d.py	/^	def __eq__(self, rhs):$/;"	m	class:vector3d	file:
+__getitem__	molecule/Chain.py	/^	def __getitem__(self, key):$/;"	m	class:Chain	file:
+__getitem__	molecule/Residue.py	/^	def __getitem__(self, key):$/;"	m	class:Residue	file:
+__getitem__	molecule/SecondaryStructure.py	/^	def __getitem__(self, key):$/;"	m	class:SecondaryStructure	file:
+__getitem__	molecule/vector3d.py	/^	def __getitem__(self, item):$/;"	m	class:vector3d	file:
+__init__	NMR/Alias.py	/^	def __init__(self):$/;"	m	class:Alias
+__init__	NMR/NMRatom.py	/^	def __init__(self):$/;"	m	class:NMRatom
+__init__	NMR/NMRresidue.py	/^	def __init__(self):$/;"	m	class:NMRresidue
+__init__	NMR/NMRspectrum.py	/^	def __init__(self):$/;"	m	class:NMRspectrum
+__init__	fragments/Fragment.py	/^	def __init__(self):$/;"	m	class:Fragment
+__init__	fragments/Fragment.py	/^	def __init__(self):$/;"	m	class:FragmentLibrary
+__init__	fragments/Fragment.py	/^	def __init__(self):$/;"	m	class:FragmentPosition
+__init__	functions/TIM.py	/^	def __init__(self):$/;"	m	class:TIM
+__init__	molecule/Atom.py	/^	def __init__(self, residue=None, name="XXXX", file_id=0, x=0.0, y=0.0, z=0.0):$/;"	m	class:Atom
+__init__	molecule/Builder.py	/^	def __init__(self):$/;"	m	class:Builder
+__init__	molecule/Chain.py	/^	def __init__(self, name=""):$/;"	m	class:Chain
+__init__	molecule/InteractionGraph.py	/^	def __init__(self):$/;"	m	class:InteractionGraph
+__init__	molecule/InteractionGraph.py	/^	def __init__(self):$/;"	m	class:one_body_interaction
+__init__	molecule/InteractionGraph.py	/^	def __init__(self):$/;"	m	class:two_body_interaction
+__init__	molecule/Molecule.py	/^	def __init__(self, name=""):$/;"	m	class:Molecule
+__init__	molecule/PeriodicTable.py	/^	def __init__(self):$/;"	m	class:PeriodicTable
+__init__	molecule/ProteinLibrary.py	/^	def __init__(self):$/;"	m	class:ProteinLibrary
+__init__	molecule/Residue.py	/^	def __init__(self, name=""):$/;"	m	class:Residue
+__init__	molecule/ResidueProperties.py	/^	def __init__(self):$/;"	m	class:ResidueProperties
+__init__	molecule/Rotamer.py	/^	def __init__(self):	$/;"	m	class:Rotamer
+__init__	molecule/RotamerSet.py	/^	def __init__(self):$/;"	m	class:RotamerLibrary
+__init__	molecule/RotamerSet.py	/^	def __init__(self, name=""):$/;"	m	class:RotamerSet
+__init__	molecule/SecondaryStructure.py	/^	def __init__(self):$/;"	m	class:SSelement
+__init__	molecule/SecondaryStructure.py	/^	def __init__(self):$/;"	m	class:SecondaryStructure
+__init__	molecule/Selection.py	/^	def __init__(self):$/;"	m	class:Selection
+__init__	molecule/Topology.py	/^	def __init__(self):$/;"	m	class:Topology
+__init__	molecule/Topology.py	/^	def __init__(self):$/;"	m	class:topologyAtom
+__init__	molecule/Torsions.py	/^	def __init__(self):$/;"	m	class:TorsionAngle
+__init__	molecule/Torsions.py	/^	def __init__(self):$/;"	m	class:Torsions
+__init__	molecule/ligand.py	/^	def __init__(self):$/;"	m	class:ligand
+__init__	molecule/ligand_atom.py	/^	def __init__(self):$/;"	m	class:ligand_atom
+__init__	molecule/vector3d.py	/^	def __init__(self, x=0.0, y=0.0, z=0.0):$/;"	m	class:vector3d
+__init__	plotting/Gnuplot.py	/^	def __init__(self):$/;"	m	class:gnuplot_legend
+__init__	plotting/Gnuplot.py	/^	def __init__(self, title=""):$/;"	m	class:gnuplot_dataset
+__init__	plotting/Gnuplot.py	/^	def __init__(self,file="gnplt"):$/;"	m	class:Gnuplot
+__mul__	molecule/vector3d.py	/^	def __mul__(self, rhs):$/;"	m	class:vector3d	file:
+__neg__	molecule/vector3d.py	/^	def __neg__(self):$/;"	m	class:vector3d	file:
+__repr__	molecule/Atom.py	/^	def __repr__(self):$/;"	m	class:Atom	file:
+__repr__	molecule/Residue.py	/^	def __repr__(self):	$/;"	m	class:Residue	file:
+__repr__	molecule/SecondaryStructure.py	/^	def __repr__(self):$/;"	m	class:SSelement	file:
+__repr__	molecule/Torsions.py	/^	def __repr__(self):$/;"	m	class:TorsionAngle	file:
+__repr__	molecule/vector3d.py	/^	def __repr__(self):$/;"	m	class:vector3d	file:
+__setitem__	molecule/vector3d.py	/^	def __setitem__(self,key,item):$/;"	m	class:vector3d	file:
+__sub__	molecule/vector3d.py	/^	def __sub__(self, rhs):$/;"	m	class:vector3d	file:
+aa1	molecule/Residue.py	/^	def aa1(self):$/;"	m	class:Residue
+aa1_from_num	functions/pdb_routines.py	/^def aa1_from_num(num=0):$/;"	f
+aa3_from_num	functions/pdb_routines.py	/^def aa3_from_num(num=0):$/;"	f
+addAtom	NMR/NMRresidue.py	/^	def addAtom(self, atm):$/;"	m	class:NMRresidue
+addAtom	molecule/Residue.py	/^	def addAtom(self, myatom):$/;"	m	class:Residue
+addChain	molecule/Molecule.py	/^	def addChain(self, chain):$/;"	m	class:Molecule
+addFragment	fragments/Fragment.py	/^	def addFragment(self, frag=None):$/;"	m	class:FragmentPosition
+addLine	fragments/Fragment.py	/^	def addLine(self, line=""):$/;"	m	class:Fragment
+addPosition	fragments/Fragment.py	/^	def addPosition(self, fragpos=None):$/;"	m	class:FragmentLibrary
+addRemark	molecule/Molecule.py	/^	def addRemark(self, rem):$/;"	m	class:Molecule
+addResidue	NMR/NMRspectrum.py	/^	def addResidue(self, res):$/;"	m	class:NMRspectrum
+addResidue	molecule/Chain.py	/^	def addResidue(self, res):$/;"	m	class:Chain
+addResidueList	molecule/Chain.py	/^	def addResidueList(self, reslist):$/;"	m	class:Chain
+addRing	molecule/ligand.py	/^	def addRing(self,id1,id2):$/;"	m	class:ligand
+add_data	plotting/Gnuplot.py	/^	def add_data(self,file,title=""):$/;"	m	class:Gnuplot
+allowed	molecule/RotamerSet.py	/^	def allowed(self,resname="",phi=0.0,psi=0.0,chi1=0.0,chi2=0.0,chi3=0.0,chi4=0.0):$/;"	m	class:RotamerLibrary
+angle	molecule/vector3d.py	/^	def angle(self, rhs=None):$/;"	m	class:vector3d
+angle3	molecule/vector3d.py	/^	def angle3(a,b,c):$/;"	m	class:vector3d
+apply_selection	molecule/Selection.py	/^	def apply_selection(self, mol):$/;"	m	class:Selection
+assembleMol	molecule/Selection.py	/^	def assembleMol(self):$/;"	m	class:Selection
+atomExists	NMR/NMRresidue.py	/^	def atomExists(self,name):$/;"	m	class:NMRresidue
+atomExists	molecule/Residue.py	/^	def atomExists(self, name):$/;"	m	class:Residue
+atomList	molecule/Molecule.py	/^	def atomList(self):$/;"	m	class:Molecule
+atomsAroundAtom	functions/mol_routines.py	/^def atomsAroundAtom(atm=None, mol=None, cutoff=6.0):$/;"	f
+bAtom_Atom_clash_check	functions/mol_routines.py	/^def bAtom_Atom_clash_check(atm1=None, atm2=None,scale=0.95):$/;"	f
+bResidue_Residue_clash_check	functions/mol_routines.py	/^def bResidue_Residue_clash_check(res1=None, res2=None, scale=0.95):$/;"	f
+buildAtom	molecule/Builder.py	/^	def buildAtom(self, atom2, atom3, atom4, dist, ang, tor):$/;"	m	class:Builder
+buildCoords	molecule/Builder.py	/^	def buildCoords(self, b, c, d, dist, ang, tor):$/;"	m	class:Builder
+buildMain	molecule/ligand.py	/^	def buildMain(self):$/;"	m	class:ligand
+buildNonMain	molecule/ligand.py	/^	def buildNonMain(self):	$/;"	m	class:ligand
+buildTree	molecule/ligand.py	/^	def buildTree(self):$/;"	m	class:ligand
+chainExists	molecule/Molecule.py	/^	def chainExists(self, chain):$/;"	m	class:Molecule
+changeDihedral	functions/mol_routines.py	/^def changeDihedral(A=None, B=None, C=None, D=None, tor=0.0):$/;"	f
+changeMaboHeader	functions/match_routines.py	/^def changeMaboHeader(mol=None):$/;"	f
+charge	molecule/Residue.py	/^	def charge(self):$/;"	m	class:Residue
+clean	molecule/InteractionGraph.py	/^	def clean(self):$/;"	m	class:InteractionGraph
+clear	fragments/Fragment.py	/^	def clear(self):$/;"	m	class:Fragment
+clear	fragments/Fragment.py	/^	def clear(self):$/;"	m	class:FragmentLibrary
+clear	fragments/Fragment.py	/^	def clear(self):$/;"	m	class:FragmentPosition
+clear	molecule/Chain.py	/^	def clear(self):$/;"	m	class:Chain
+clear	molecule/Molecule.py	/^	def clear(self):$/;"	m	class:Molecule
+clear	molecule/Residue.py	/^	def clear(self):$/;"	m	class:Residue
+clear	molecule/Selection.py	/^	def clear(self):$/;"	m	class:Selection
+clone	fragments/Fragment.py	/^	def clone(self):$/;"	m	class:Fragment
+clone	fragments/Fragment.py	/^	def clone(self):$/;"	m	class:FragmentPosition
+clone	molecule/Atom.py	/^	def clone(self):$/;"	m	class:Atom
+clone	molecule/Chain.py	/^	def clone(self):$/;"	m	class:Chain
+clone	molecule/Molecule.py	/^	def clone(self):$/;"	m	class:Molecule
+clone	molecule/Residue.py	/^	def clone(self):$/;"	m	class:Residue
+closestApproachToResidue	functions/mol_routines.py	/^def closestApproachToResidue(atm=None, res=None):$/;"	f
+com	molecule/Molecule.py	/^	def com(self):$/;"	m	class:Molecule
+commonInteraction	molecule/InteractionGraph.py	/^	def commonInteraction(self,mytype=0,set1=None,set2=None):$/;"	m	class:InteractionGraph
+copy	molecule/Atom.py	/^	def copy(self, cpatom):$/;"	m	class:Atom
+copy	molecule/Chain.py	/^	def copy(self, rhs):$/;"	m	class:Chain
+copy	molecule/Molecule.py	/^	def copy(self, rhs):$/;"	m	class:Molecule
+copy	molecule/Residue.py	/^	def copy(self, rhs):$/;"	m	class:Residue
+cross	molecule/vector3d.py	/^	def cross(self, rhs=None):$/;"	m	class:vector3d
+dbuildAtom	molecule/Builder.py	/^	def dbuildAtom(self, atom2, atom3, atom4, dist, ang, tor):$/;"	m	class:Builder
+determineElement	molecule/PeriodicTable.py	/^	def determineElement(self, name):$/;"	m	class:PeriodicTable
+display	molecule/Atom.py	/^	def display(self):$/;"	m	class:Atom
+display	molecule/Rotamer.py	/^	def display(self):$/;"	m	class:Rotamer
+display	molecule/RotamerSet.py	/^	def display(self):$/;"	m	class:RotamerSet
+dist2	molecule/Atom.py	/^	def dist2(self, rhs):$/;"	m	class:Atom
+dist2	molecule/vector3d.py	/^	def dist2(self, rhs=None):$/;"	m	class:vector3d
+distance	molecule/Atom.py	/^	def distance(self, rhs):$/;"	m	class:Atom
+distance	molecule/vector3d.py	/^	def distance(self, rhs=None):$/;"	m	class:vector3d
+domain_domain_contacts	baker/checkInterface.py	/^def domain_domain_contacts():$/;"	f
+domain_linker_contacts	baker/checkInterface.py	/^def domain_linker_contacts():$/;"	f
+edgesWithRotamer	molecule/InteractionGraph.py	/^	def edgesWithRotamer(self,index=0,edgelist=None):$/;"	m	class:InteractionGraph
+edgesWithType	molecule/InteractionGraph.py	/^	def edgesWithType(self,mytype=0,edgelist=None):$/;"	m	class:InteractionGraph
+edgesWithoutRotamer	molecule/InteractionGraph.py	/^	def edgesWithoutRotamer(self,index=0,edgelist=None):$/;"	m	class:InteractionGraph
+edgesWithoutType	molecule/InteractionGraph.py	/^	def edgesWithoutType(self, mytype=0,edgelist=None):$/;"	m	class:InteractionGraph
+extractAtoms	molecule/Selection.py	/^	def extractAtoms(self, mol):$/;"	m	class:Selection
+files_from_list	functions/file_routines.py	/^def files_from_list(file):$/;"	f
+filter_aatypes	molecule/InteractionGraph.py	/^	def filter_aatypes(self, type1=0, type2=0, bInv=False):$/;"	m	class:InteractionGraph
+filter_energy	molecule/InteractionGraph.py	/^	def filter_energy(self, function, value, bOne=True, bTwo=True, type1=0, type2=0):$/;"	m	class:InteractionGraph
+filter_kind	molecule/InteractionGraph.py	/^	def filter_kind(self, type=0, bInverse=False):$/;"	m	class:InteractionGraph
+filter_neighbors	molecule/InteractionGraph.py	/^	def filter_neighbors(self, aatype, cutoff, bInverse = False):$/;"	m	class:InteractionGraph
+filter_resfile	molecule/InteractionGraph.py	/^	def filter_resfile(self, resfile=""):$/;"	m	class:InteractionGraph
+fit	functions/mol_routines.py	/^def fit(mol1=None, mol2=None):$/;"	f
+fixMet	functions/pdb_routines.py	/^def fixMet(mol=None):$/;"	f
+formatSegments	functions/TIM.py	/^	def formatSegments(self):$/;"	m	class:TIM
+formatSequence	molecule/SecondaryStructure.py	/^	def formatSequence(self):$/;"	m	class:SecondaryStructure
+genFrags	fragments/condenseFragments.py	/^def genFrags():$/;"	f
+genFrags	fragments/extractFragments.py	/^def genFrags():$/;"	f
+genFrags	fragments/genFrags.py	/^def genFrags():$/;"	f
+genFrags	fragments/mergeFragments.py	/^def genFrags():$/;"	f
+getAlias	NMR/Alias.py	/^	def getAlias(self, resn, atomn):$/;"	m	class:Alias
+getAtom	NMR/NMRresidue.py	/^	def getAtom(self,name):$/;"	m	class:NMRresidue
+getAtom	molecule/Molecule.py	/^	def getAtom(self, atomid):$/;"	m	class:Molecule
+getAtom	molecule/Residue.py	/^	def getAtom(self, name):$/;"	m	class:Residue
+getAtomIndex	molecule/Residue.py	/^	def getAtomIndex(self, name):$/;"	m	class:Residue
+getAtomIndex	molecule/Topology.py	/^	def getAtomIndex(self, name):$/;"	m	class:Topology
+getAtoms	molecule/Torsions.py	/^	def getAtoms(self, chain=None, resi=None, tor=None):$/;"	m	class:Torsions
+getCatalyticResidueList	functions/match_routines.py	/^def getCatalyticResidueList(mol=None):$/;"	f
+getCatalyticResidues	functions/match_routines.py	/^def getCatalyticResidues(mol=None):$/;"	f
+getChain	molecule/Molecule.py	/^	def getChain(self, chain):$/;"	m	class:Molecule
+getFragment	fragments/Fragment.py	/^	def getFragment(self, index=0):$/;"	m	class:FragmentPosition
+getHeteroAtoms	molecule/Molecule.py	/^	def getHeteroAtoms(self):$/;"	m	class:Molecule
+getMaboCatResidues	functions/match_routines.py	/^def getMaboCatResidues(mol=None, renumber=False):$/;"	f
+getMainAtoms	molecule/ligand.py	/^	def getMainAtoms(self):$/;"	m	class:ligand
+getNonMainAtoms	molecule/ligand.py	/^	def getNonMainAtoms(self):$/;"	m	class:ligand
+getPosition	fragments/Fragment.py	/^	def getPosition(self, index=-1):$/;"	m	class:FragmentLibrary
+getRandFragments	fragments/Fragment.py	/^	def getRandFragments(self, nfrags=0):$/;"	m	class:FragmentPosition
+getResidue	NMR/NMRspectrum.py	/^	def getResidue(self,id):$/;"	m	class:NMRspectrum
+getResidue	molecule/Chain.py	/^	def getResidue(self, resi):$/;"	m	class:Chain
+getResidue	molecule/Molecule.py	/^	def getResidue(self, resi):$/;"	m	class:Molecule
+getResidueIndex	molecule/Chain.py	/^	def getResidueIndex(self, resi):$/;"	m	class:Chain
+getTorsion	molecule/Torsions.py	/^	def getTorsion(self, chain=None, resi=None, tor=None):$/;"	m	class:Torsions
+getTriad	molecule/InteractionGraph.py	/^	def getTriad(self, triad=""):$/;"	m	class:InteractionGraph
+get_basefile	functions/file_routines.py	/^def get_basefile(file):$/;"	f
+get_rotamer	molecule/InteractionGraph.py	/^	def get_rotamer(self, index=0):	$/;"	m	class:InteractionGraph
+get_rotamer_partners	molecule/InteractionGraph.py	/^	def get_rotamer_partners(self, rotindex=0):$/;"	m	class:InteractionGraph
+gnuplot_dataset	plotting/Gnuplot.py	/^class gnuplot_dataset:$/;"	c
+gnuplot_legend	plotting/Gnuplot.py	/^class gnuplot_legend:$/;"	c
+insertResidue	molecule/Chain.py	/^	def insertResidue(self, res, resi):$/;"	m	class:Chain
+insertResidues	molecule/Chain.py	/^	def insertResidues(self, list, beg):$/;"	m	class:Chain
+isAtomRotatable	molecule/ligand.py	/^	def isAtomRotatable(self, atom1=None):$/;"	m	class:ligand
+isBondRotatable	molecule/ligand.py	/^	def isBondRotatable(self, atom1=None, atom2=None):$/;"	m	class:ligand
+isInSegment	functions/TIM.py	/^	def isInSegment(self, resi=-1):$/;"	m	class:TIM
+isRingPresent	molecule/ligand.py	/^	def isRingPresent(self,id1,id2):$/;"	m	class:ligand
+keepPositions	molecule/InteractionGraph.py	/^	def keepPositions(self, aatype, list):$/;"	m	class:InteractionGraph
+keepRotamerList	molecule/InteractionGraph.py	/^	def keepRotamerList(self, aatype, list):$/;"	m	class:InteractionGraph
+length	molecule/vector3d.py	/^	def length(self):$/;"	m	class:vector3d
+ligand	molecule/ligand.py	/^class ligand(Residue):$/;"	c
+ligand_atom	molecule/ligand_atom.py	/^class ligand_atom(Atom):$/;"	c
+main	NMR/NMRalias.py	/^def main():$/;"	f
+main	TIM/alignTimSS.py	/^def main():$/;"	f
+main	TIM/closeTIM.py	/^def main():$/;"	f
+main	TIM/extractTIM.py	/^def main():$/;"	f
+main	TIM/filterTIM.py	/^def main():$/;"	f
+main	TIM/identifyTIM.py	/^def main():$/;"	f
+main	TIM/insertTIMsegments.py	/^def main():$/;"	f
+main	baker/checkAtomOccupancy.py	/^def main():$/;"	f
+main	baker/checkChainBreaks.py	/^def main():$/;"	f
+main	baker/checkInterface.py	/^def main():$/;"	f
+main	baker/checkMatches.py	/^def main():$/;"	f
+main	baker/dssp.py	/^def main():$/;"	f
+main	baker/getSecStruct.py	/^def main():$/;"	f
+main	baker/listChains.py	/^def main():$/;"	f
+main	baker/makeCentroid.py	/^def main():$/;"	f
+main	baker/setChain.py	/^def main():$/;"	f
+main	baker/stride.py	/^def main():$/;"	f
+main	baker/weightAmber.py	/^def main():$/;"	f
+main	design/alterMoleculeB.py	/^def main():$/;"	f
+main	design/gridFluffer.py	/^def main():$/;"	f
+main	design/gridGhost.py	/^def main():$/;"	f
+main	design/gridInclude.py	/^def main():$/;"	f
+main	design/gridManip.py	/^def main():$/;"	f
+main	design/gridOccupy.py	/^def main():$/;"	f
+main	design/gridReset.py	/^def main():$/;"	f
+main	design/gridTrim.py	/^def main():$/;"	f
+main	design/numPoses.py	/^def main():$/;"	f
+main	design/pos_from_log.py	/^def main():$/;"	f
+main	design/rearrangeTS.py	/^def main():$/;"	f
+main	ligand/rosetta2pdb.py	/^def main():$/;"	f
+main	plotting/makePlot.py	/^def main():$/;"	f
+main	pwd/analyzePWD.py	/^def main():$/;"	f
+main	pwd/binPWD.py	/^def main():$/;"	f
+main	pwd/pwdStats.py	/^def main():$/;"	f
+main	tools/IGinteractions.py	/^def main():$/;"	f
+main	tools/RenumberPDB.py	/^def main():$/;"	f
+main	tools/Sequence.py	/^def main():$/;"	f
+main	tools/Superimpose.py	/^def main():$/;"	f
+main	tools/align.py	/^def main():$/;"	f
+main	tools/bin.py	/^def main():$/;"	f
+main	tools/binValues.py	/^def main():$/;"	f
+main	tools/buildCoords.py	/^def main():$/;"	f
+main	tools/checkAtoms.py	/^def main():$/;"	f
+main	tools/checkBackedUpMatches.py	/^def main():$/;"	f
+main	tools/checkHisPos.py	/^def main():$/;"	f
+main	tools/checkOrientation.py	/^def main():$/;"	f
+main	tools/checkRotamers.py	/^def main():$/;"	f
+main	tools/commonIG.py	/^def main():$/;"	f
+main	tools/distance.py	/^def main():$/;"	f
+main	tools/extractCatalytic.py	/^def main():$/;"	f
+main	tools/extractIG.py	/^def main():$/;"	f
+main	tools/filterIG.py	/^def main():$/;"	f
+main	tools/fixHisMatch.py	/^def main():$/;"	f
+main	tools/fixMatch.py	/^def main():$/;"	f
+main	tools/fix_met.py	/^def main():$/;"	f
+main	tools/graftLigandDump.py	/^def main():$/;"	f
+main	tools/graftMaboMatch.py	/^def main():$/;"	f
+main	tools/graftMatch.py	/^def main():$/;"	f
+main	tools/graftMin.py	/^def main():$/;"	f
+main	tools/graftSidechain.py	/^def main():$/;"	f
+main	tools/largeIG.py	/^def main():$/;"	f
+main	tools/loop.py	/^def main():$/;"	f
+main	tools/loopVariation.py	/^def main():$/;"	f
+main	tools/makeFasta.py	/^def main():$/;"	f
+main	tools/makeResfile.py	/^def main():$/;"	f
+main	tools/makeSelection.py	/^def main():$/;"	f
+main	tools/mergePDB.py	/^def main():$/;"	f
+main	tools/molBuilder.py	/^def main():$/;"	f
+main	tools/nearbyResidues.py	/^def main():$/;"	f
+main	tools/numResidues.py	/^def main():$/;"	f
+main	tools/pdbcharge.py	/^def main():$/;"	f
+main	tools/pointHbonds.py	/^def main():$/;"	f
+main	tools/polyALA.py	/^def main():$/;"	f
+main	tools/polyGLY.py	/^def main():$/;"	f
+main	tools/posIG.py	/^def main():$/;"	f
+main	tools/posfromIG.py	/^def main():$/;"	f
+main	tools/printCatRes.py	/^def main():$/;"	f
+main	tools/printPDB.py	/^def main():$/;"	f
+main	tools/rclashes.py	/^def main():$/;"	f
+main	tools/renameDecoys.py	/^def main():$/;"	f
+main	tools/resFit.py	/^def main():$/;"	f
+main	tools/resfromIG.py	/^def main():$/;"	f
+main	tools/rms_cur.py	/^def main():$/;"	f
+main	tools/rmsd.py	/^def main():$/;"	f
+main	tools/rotamerIG.py	/^def main():$/;"	f
+main	tools/scanMatches.py	/^def main():$/;"	f
+main	tools/switchCoords.py	/^def main():$/;"	f
+main	tools/switchTautomers.py	/^def main():$/;"	f
+main	tools/torsion.py	/^def main():$/;"	f
+main	tools/translatePDB.py	/^def main():$/;"	f
+main	tools/triadIG.py	/^def main():$/;"	f
+main	tools/unique.py	/^def main():$/;"	f
+makeSelection	molecule/Selection.py	/^	def makeSelection(self, selection=""):$/;"	m	class:Selection
+mammoth	functions/mol_routines.py	/^def mammoth(targetFile="", probeFile="", Rvalue=4.0):$/;"	f
+mass	molecule/Residue.py	/^	def mass(self):$/;"	m	class:Residue
+matches	molecule/Rotamer.py	/^	def matches(self, phi=0.0, psi=0.0, chi1=0.0, chi2=0.0, chi3=0.0, chi4=0.0):$/;"	m	class:Rotamer
+newAtom	NMR/NMRresidue.py	/^	def newAtom(self):$/;"	m	class:NMRresidue
+newAtom	molecule/Residue.py	/^	def newAtom(self):$/;"	m	class:Residue
+newAtom	molecule/Topology.py	/^	def newAtom(self):$/;"	m	class:Topology
+newAtom	molecule/ligand.py	/^	def newAtom(self):$/;"	m	class:ligand
+newChain	molecule/Molecule.py	/^	def newChain(self):$/;"	m	class:Molecule
+newFragment	fragments/Fragment.py	/^	def newFragment(self):$/;"	m	class:FragmentPosition
+newPosition	fragments/Fragment.py	/^	def newPosition(self):$/;"	m	class:FragmentLibrary
+newResidue	NMR/NMRspectrum.py	/^	def newResidue(self):$/;"	m	class:NMRspectrum
+newResidue	molecule/Chain.py	/^	def newResidue(self):$/;"	m	class:Chain
+newRotamer	molecule/RotamerSet.py	/^	def newRotamer(self):$/;"	m	class:RotamerSet
+newSLH	functions/TIM.py	/^	def newSLH(self):$/;"	m	class:TIM
+newSegment	molecule/SecondaryStructure.py	/^	def newSegment(self):$/;"	m	class:SecondaryStructure
+numAtoms	NMR/NMRresidue.py	/^	def numAtoms(self):$/;"	m	class:NMRresidue
+numAtoms	molecule/Chain.py	/^	def numAtoms(self):$/;"	m	class:Chain
+numAtoms	molecule/Molecule.py	/^	def numAtoms(self):$/;"	m	class:Molecule
+numAtoms	molecule/Residue.py	/^	def numAtoms(self):$/;"	m	class:Residue
+numChains	molecule/Molecule.py	/^	def numChains(self):$/;"	m	class:Molecule
+numFragments	fragments/Fragment.py	/^	def numFragments(self):$/;"	m	class:FragmentPosition
+numHelices	molecule/SecondaryStructure.py	/^	def numHelices(self):$/;"	m	class:SecondaryStructure
+numLoops	molecule/SecondaryStructure.py	/^	def numLoops(self):$/;"	m	class:SecondaryStructure
+numPositions	fragments/Fragment.py	/^	def numPositions(self):$/;"	m	class:FragmentLibrary
+numResidues	NMR/NMRspectrum.py	/^	def numResidues(self):$/;"	m	class:NMRspectrum
+numResidues	molecule/Chain.py	/^	def numResidues(self):$/;"	m	class:Chain
+numResidues	molecule/Molecule.py	/^	def numResidues(self):$/;"	m	class:Molecule
+numResn	molecule/Chain.py	/^	def numResn(self, name):$/;"	m	class:Chain
+numSegments	molecule/SecondaryStructure.py	/^	def numSegments(self):$/;"	m	class:SecondaryStructure
+numSheets	molecule/SecondaryStructure.py	/^	def numSheets(self):$/;"	m	class:SecondaryStructure
+num_from_aa1	functions/pdb_routines.py	/^def num_from_aa1(res=""):$/;"	f
+num_from_aa3	functions/pdb_routines.py	/^def num_from_aa3(res=""):$/;"	f
+one_body_interaction	molecule/InteractionGraph.py	/^class one_body_interaction:$/;"	c
+parse	molecule/SecondaryStructure.py	/^	def parse(self):$/;"	m	class:SecondaryStructure
+parseAtom	molecule/Selection.py	/^	def parseAtom(self, line):$/;"	m	class:Selection
+parseAtomid	molecule/Selection.py	/^	def parseAtomid(self, line):$/;"	m	class:Selection
+parseChain	molecule/Selection.py	/^	def parseChain(self, line):$/;"	m	class:Selection
+parseElement	molecule/Selection.py	/^	def parseElement(self, line):$/;"	m	class:Selection
+parseResI	molecule/Selection.py	/^	def parseResI(self, line):$/;"	m	class:Selection
+parseResN	molecule/Selection.py	/^	def parseResN(self, line):$/;"	m	class:Selection
+parseType	molecule/Selection.py	/^	def parseType(self, line):$/;"	m	class:Selection
+perceiveBonds	molecule/ligand.py	/^	def perceiveBonds(self):$/;"	m	class:ligand
+populate	molecule/PeriodicTable.py	/^	def populate(self):$/;"	m	class:PeriodicTable
+printRegions	molecule/SecondaryStructure.py	/^	def printRegions(self):$/;"	m	class:SecondaryStructure
+printSequence	molecule/SecondaryStructure.py	/^	def printSequence(self):$/;"	m	class:SecondaryStructure
+printStats	molecule/InteractionGraph.py	/^	def printStats(self):$/;"	m	class:InteractionGraph
+processArgs	baker/setChain.py	/^def processArgs():$/;"	f
+processArgs	tools/fix_met.py	/^def processArgs():$/;"	f
+read	NMR/Alias.py	/^	def read(self,file):$/;"	m	class:Alias
+read	NMR/NMRspectrum.py	/^	def read(self,file):$/;"	m	class:NMRspectrum
+read	fragments/Fragment.py	/^	def read(self, file=""):$/;"	m	class:FragmentLibrary
+read	molecule/InteractionGraph.py	/^	def read(self, file=""):$/;"	m	class:InteractionGraph
+read	molecule/RotamerSet.py	/^	def read(self, file):$/;"	m	class:RotamerLibrary
+read	molecule/Topology.py	/^	def read(self, file=""):$/;"	m	class:Topology
+readLibrary	molecule/ProteinLibrary.py	/^	def readLibrary(self, file=""):$/;"	m	class:ProteinLibrary
+readPDB	molecule/Molecule.py	/^	def readPDB(self, file):$/;"	m	class:Molecule
+readPDB	molecule/ligand.py	/^	def readPDB(self, file):$/;"	m	class:ligand
+readRosetta	molecule/Molecule.py	/^	def readRosetta(self, file):$/;"	m	class:Molecule
+readSSfile	molecule/SecondaryStructure.py	/^	def readSSfile(self, file=""):$/;"	m	class:SecondaryStructure
+readTIM	functions/TIM.py	/^	def readTIM(self, timfile):$/;"	m	class:TIM
+readTorsions	molecule/Torsions.py	/^	def readTorsions(self):$/;"	m	class:Torsions
+recursiveBuilder	molecule/ligand.py	/^	def recursiveBuilder(self, id1):$/;"	m	class:ligand
+removeAtom	NMR/NMRresidue.py	/^	def removeAtom(self,name):$/;"	m	class:NMRresidue
+removeAtom	molecule/Residue.py	/^	def removeAtom(self, name):$/;"	m	class:Residue
+removeAtomsContaining	molecule/Residue.py	/^	def removeAtomsContaining(self, name):$/;"	m	class:Residue
+removeChain	molecule/Molecule.py	/^	def removeChain(self, mychain):$/;"	m	class:Molecule
+removeResidue	NMR/NMRspectrum.py	/^	def removeResidue(self,name):$/;"	m	class:NMRspectrum
+removeResidue	molecule/Chain.py	/^	def removeResidue(self,resi):$/;"	m	class:Chain
+removeRotamer	molecule/InteractionGraph.py	/^	def removeRotamer(self, rotindex):$/;"	m	class:InteractionGraph
+removeRotatableBond	molecule/ligand.py	/^	def removeRotatableBond(self, atom1=None, atom2=None):$/;"	m	class:ligand
+removeSLH	functions/TIM.py	/^	def removeSLH(self, index=-1):$/;"	m	class:TIM
+renumber	molecule/Chain.py	/^	def renumber(self,resRenumber=True,atomRenumber=True):$/;"	m	class:Chain
+renumberFragments	fragments/Fragment.py	/^	def renumberFragments(self):$/;"	m	class:FragmentPosition
+renumberPositions	fragments/Fragment.py	/^	def renumberPositions(self):$/;"	m	class:FragmentLibrary
+replaceResidue	molecule/Chain.py	/^	def replaceResidue(self, resi, newres):$/;"	m	class:Chain
+res_fit	functions/mol_routines.py	/^def res_fit(mol1=None, mol2=None):$/;"	f
+residueExists	NMR/NMRspectrum.py	/^	def residueExists(self,id):$/;"	m	class:NMRspectrum
+residueExists	molecule/Chain.py	/^	def residueExists(self, res):$/;"	m	class:Chain
+residueList	molecule/Molecule.py	/^	def residueList(self):$/;"	m	class:Molecule
+residuesAroundAtom	functions/mol_routines.py	/^def residuesAroundAtom(atm=None, mol=None, cutoff=6.0):$/;"	f
+rotate	molecule/vector3d.py	/^	def rotate(self, Mat):$/;"	m	class:vector3d
+rotate_molecule	functions/mol_routines.py	/^def rotate_molecule(mol=None,mat=None):$/;"	f
+run	plotting/Gnuplot.py	/^	def run(self):$/;"	m	class:Gnuplot
+run_dssp	functions/ss_routines.py	/^def run_dssp(pdbfile):$/;"	f
+run_stride	functions/ss_routines.py	/^def run_stride(pdbfile):$/;"	f
+selectAtomid	molecule/Selection.py	/^	def selectAtomid(self):$/;"	m	class:Selection
+selectChain	molecule/Selection.py	/^	def selectChain(self, inverse=False):$/;"	m	class:Selection
+selectElement	molecule/Selection.py	/^	def selectElement(self):$/;"	m	class:Selection
+selectName	molecule/Selection.py	/^	def selectName(self, inverse=False):$/;"	m	class:Selection
+selectResI	molecule/Selection.py	/^	def selectResI(self):$/;"	m	class:Selection
+selectResN	molecule/Selection.py	/^	def selectResN(self):$/;"	m	class:Selection
+selectType	molecule/Selection.py	/^	def selectType(self):$/;"	m	class:Selection
+sequence	molecule/Molecule.py	/^	def sequence(self):$/;"	m	class:Molecule
+set13	molecule/Topology.py	/^	def set13(self):$/;"	m	class:Topology
+setPosition	fragments/Fragment.py	/^	def setPosition(self, pos):$/;"	m	class:Fragment
+setPosition	fragments/Fragment.py	/^	def setPosition(self, pos):$/;"	m	class:FragmentPosition
+setResidue	molecule/Topology.py	/^	def setResidue(self, res=None):$/;"	m	class:Topology
+setRotatableBond	molecule/ligand.py	/^	def setRotatableBond(self, atom1=None, atom2=None):$/;"	m	class:ligand
+setSequence	functions/TIM.py	/^	def setSequence(self, sequence):$/;"	m	class:TIM
+setStdev	molecule/RotamerSet.py	/^	def setStdev(self, stdev):$/;"	m	class:RotamerLibrary
+setTree	molecule/ligand.py	/^	def setTree(self, name="", type=""):$/;"	m	class:ligand
+set_energy	molecule/InteractionGraph.py	/^	def set_energy(self, function, value):$/;"	m	class:one_body_interaction
+set_energy	molecule/InteractionGraph.py	/^	def set_energy(self, function, value):$/;"	m	class:two_body_interaction
+slice	molecule/Chain.py	/^	def slice(self, beg, end):$/;"	m	class:Chain
+sort	functions/TIM.py	/^	def sort(self):$/;"	m	class:TIM
+sortEnergies	molecule/InteractionGraph.py	/^	def sortEnergies(self):$/;"	m	class:InteractionGraph
+superimpose_molecule	functions/mol_routines.py	/^def superimpose_molecule(trg=None,prb=None,carry=None):$/;"	f
+switchHisTautomer	functions/mol_routines.py	/^def switchHisTautomer(his=None):$/;"	f
+topologyAtom	molecule/Topology.py	/^class topologyAtom(Atom):$/;"	c
+torsion	molecule/vector3d.py	/^	def torsion(a, b, c, d):$/;"	m	class:vector3d
+total_energy	molecule/InteractionGraph.py	/^	def total_energy(self):$/;"	m	class:one_body_interaction
+total_energy	molecule/InteractionGraph.py	/^	def total_energy(self):$/;"	m	class:two_body_interaction
+translate	molecule/Atom.py	/^	def translate(self, vector):$/;"	m	class:Atom
+translate	molecule/Chain.py	/^	def translate(self, vec):$/;"	m	class:Chain
+translate	molecule/Molecule.py	/^	def translate(self, vec):$/;"	m	class:Molecule
+translate	molecule/Residue.py	/^	def translate(self, vec):$/;"	m	class:Residue
+two_body_interaction	molecule/InteractionGraph.py	/^class two_body_interaction:$/;"	c
+unit	molecule/vector3d.py	/^	def unit(self):$/;"	m	class:vector3d
+vector3d	molecule/vector3d.py	/^class vector3d:$/;"	c
+write	NMR/NMRspectrum.py	/^	def write(self, file):$/;"	m	class:NMRspectrum
+write	fragments/Fragment.py	/^	def write(self, file=""):$/;"	m	class:FragmentLibrary
+write	molecule/InteractionGraph.py	/^	def write(self, file):$/;"	m	class:InteractionGraph
+write	molecule/Topology.py	/^	def write(self, file=""):$/;"	m	class:Topology
+write	plotting/Gnuplot.py	/^	def write(self):$/;"	m	class:Gnuplot
+write	plotting/Gnuplot.py	/^	def write(self, stream=None):$/;"	m	class:gnuplot_legend
+writePDB	molecule/Molecule.py	/^	def writePDB(self, file, resRenumber=True, atomRenumber=True):$/;"	m	class:Molecule
+writePDB	molecule/ligand.py	/^	def writePDB(self, file):$/;"	m	class:ligand
+writePymol	functions/TIM.py	/^	def writePymol(self, pyfile):$/;"	m	class:TIM
+writeTIM	functions/TIM.py	/^	def writeTIM(self, timfile):$/;"	m	class:TIM

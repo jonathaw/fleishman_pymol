@@ -1,0 +1,107 @@
+<!DOCTYPE FragmentXML>
+<list>
+ <residue_alias original="ALA" alias="ALL" />
+ <residue_alias original="CYS" alias="ALL" />
+ <residue_alias original="CYX" alias="ALL" />
+ <residue_alias original="ASP" alias="ALL" />
+ <residue_alias original="GLU" alias="ALL" />
+ <residue_alias original="PHE" alias="ALL" />
+ <residue_alias original="GLY" alias="ALL" />
+ <residue_alias original="HIS" alias="ALL" />
+ <residue_alias original="ILE" alias="ALL" />
+ <residue_alias original="LYS" alias="ALL" />
+ <residue_alias original="LEU" alias="ALL" />
+ <residue_alias original="MET" alias="ALL" />
+ <residue_alias original="ASN" alias="ALL" />
+ <residue_alias original="GLN" alias="ALL" />
+ <residue_alias original="ARG" alias="ALL" />
+ <residue_alias original="SER" alias="ALL" />
+ <residue_alias original="THR" alias="ALL" />
+ <residue_alias original="VAL" alias="ALL" />
+ <residue_alias original="TYR" alias="ALL" />
+ <residue_alias original="TRP" alias="ALL" />
+ <residue identity="ALL">
+  <hbond type="backbone" ndonor="1" nacceptor="1">
+   <donor H=" H  " D=" N  " />
+   <acceptor A=" O  " AA=" C  " />
+  </hbond>
+ </residue>
+ <residue identity="ASP">
+  <hbond type="sidechain" ndonor="0" nacceptor="2">
+   <acceptor A=" OD1" AA=" CG " />
+   <acceptor A=" OD2" AA=" CG " />
+  </hbond>
+ </residue>
+ <residue identity="GLU">
+  <hbond type="sidechain" ndonor="0" nacceptor="2">
+   <acceptor A=" OE1" AA=" CD " />
+   <acceptor A=" OE2" AA=" CD " />
+  </hbond>
+ </residue>
+ <residue identity="LYS">
+  <hbond type="sidechain" ndonor="3" nacceptor="0">
+   <donor H="1HZ " D=" NZ " />
+   <donor H="2HZ " D=" NZ " />
+   <donor H="3HZ " D=" NZ " />
+  </hbond>
+ </residue>
+ <residue identity="ASN">
+  <hbond type="sidechain" ndonor="2" nacceptor="1">
+   <donor H="1HD2" D=" ND2" />
+   <donor H="2HD2" D=" ND2" />
+   <acceptor A=" OD1" AA=" CG " />
+  </hbond>
+ </residue>
+  <residue identity="PRO">
+  <hbond type="backbone" ndonor="0" nacceptor="1">
+   <acceptor A=" O  " AA=" C  " />
+  </hbond>
+ </residue>
+ <residue identity="GLN">
+  <hbond type="sidechain" ndonor="2" nacceptor="1">
+   <donor H="1HE2" D=" NE2" />
+   <donor H="2HE2" D=" NE2" />
+   <acceptor A=" OE1" AA=" CD " />
+  </hbond>
+ </residue> 
+ <residue identity="ARG">
+  <hbond type="sidechain"  ndonor="5" nacceptor="0">
+   <donor H=" HE " D=" NE " />
+   <donor H="1HH1" D=" NH1" />
+   <donor H="2HH1" D=" NH1" />
+   <donor H="1HH2" D=" NH2" />
+   <donor H="2HH2" D=" NH2" />
+  </hbond>
+ </residue>
+ <residue identity="SER">
+  <hbond type="sidechain" ndonor="1" nacceptor="1">
+   <donor H=" HG " D=" OG " />
+   <acceptor A=" OG " AA=" CB " />
+  </hbond>
+ </residue>
+ <residue identity="THR">
+  <hbond type="sidechain" ndonor="1" nacceptor="1">
+	<donor H="1HG " D=" OG1" />
+	<donor H=" HG1" D=" OG1" />
+   <acceptor A=" OG1" AA=" CB " />
+  </hbond>
+ </residue>
+ <residue identity="TRP">
+  <hbond type="sidechain" ndonor="1" nacceptor="0">
+   <donor H=" HE1" D=" NE1" />
+  </hbond>
+ </residue>
+ <residue identity="TYR">
+  <hbond type="sidechain" ndonor="1" nacceptor="0">
+   <donor H=" HH " D=" OH " />
+  </hbond>
+ </residue>
+ <residue identity="HIS">
+  <hbond type="sidechain" ndonor="2" nacceptor="2">
+   <donor H=" HD1" D=" ND1" />
+	<donor H=" HE2" D=" NE2" />
+	<acceptor A=" ND1" AA=" CG " />
+	<acceptor A=" NE2" AA=" CD2" />
+  </hbond>
+ </residue>
+</list>

@@ -1,0 +1,6 @@
+set ray_trace_mode,3
+import glob
+import sys
+sys.path.append("/Users/christoffernorn/dropbox/software/pymol_scripts/")
+
+for line in glob.glob("/Users/christoffernorn/dropbox/software/pymol_scripts/*.py"): cmd.do("run "+line)
