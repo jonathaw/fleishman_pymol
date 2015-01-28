@@ -180,5 +180,10 @@ def interface_analyse_multi(dist=10):
 cmd.extend('interface_analyse_multi', interface_analyse_multi)
 
 
+def test_function():
+    print 'git is working'
+    pass
+cmd.extend('test_function', test_function)
+
 cmd.set_key('ALT-H', hot_spot_spheres)
 cmd.set_key('ALT-G', hot_spot_hide)
