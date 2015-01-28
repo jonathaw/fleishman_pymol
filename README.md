@@ -10,6 +10,6 @@ if you're not sure how, it's the same as the rosetta wiki (markdown).
 - location: pymol_stuff/pymol_scripts/pymol_interface_analyser.py
 
 ## interface_analyse_multi
--input: distance (pido), default 10A
--perfmorms interface_analyse on all loaded objects. hides all but the first object and its h.bonds
--location: pymol_stuff/pymol_scripts/pymol_interface_analyser.py
+- input: distance (pido), default 10A
+- perfmorms interface_analyse on all loaded objects. hides all but the first object and its h.bonds
+- location: pymol_stuff/pymol_scripts/pymol_interface_analyser.py
