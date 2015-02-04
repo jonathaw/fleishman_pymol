@@ -8,6 +8,7 @@ aa_triplet_to_single = {value: key for key, value in aa_single_to_triplet.items(
 ABC = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V',
        'W', 'X', 'Y', 'Z']
 
+
 def interface_analyser(name, dist_cuoff=10, animate=True):
     '''
 DESCRIPTION
