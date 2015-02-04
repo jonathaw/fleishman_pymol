@@ -13,3 +13,11 @@ if you're not sure how, it's the same as the rosetta wiki (markdown).
 - input: distance (pido), default 10A
 - perfmorms interface_analyse on all loaded objects. hides all but the first object and its h.bonds
 - location: pymol_stuff/pymol_scripts/pymol_interface_analyser.py
+
+## get_chain_sequence
+- inout the selected object in pymol
+- output fasta sequence for the selection's chain
+
+## get_object_sequence
+- inout: the selected object in pymol
+- output:the object's sequence
