@@ -10,6 +10,10 @@ if you're not sure how, it's the same as the rosetta wiki (markdown).
 - action: turns all to cartoon, and interface to lines. shows interface h.bonds, and cavities.
 - location: pymol_stuff/pymol_scripts/pymol_interface_analyser.py
 
+### interface_analyser_with_surface
+- inut object name, distance cutoff and chosen chain
+- same as interface_analyse just that the chosen chain (default A) is showen as surface, and no cavities
+
 ### interface_analyse_multi
 - input: distance (pido), default 10A
 - perfmorms interface_analyse on all loaded objects. hides all but the first object and its h.bonds

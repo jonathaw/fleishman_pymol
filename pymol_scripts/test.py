@@ -1,10 +1,14 @@
-from vecmat import *
+# import re
+#
+# stri = '*out'
+# test = ['out', 'aaout', 'sdfgsdg']
+#
+# regex = re.compile('%s*' % stri)
+# # print regex
 
 
-
-
-a = Vec(34.155998, 66.834000, 0.232000  )
-b = Vec(22.784122, 79.173546, -0.705234 )
-c = Vec(21.641096, 67.769714, 11.566982 )
-
-print (a-b).cross(a-c)
+user = '*out'
+import re
+regex = re.compile('%s-\d*' % user)
+regex.match('heinz-1')
+print regex

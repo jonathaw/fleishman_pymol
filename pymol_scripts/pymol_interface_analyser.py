@@ -47,6 +47,38 @@ DESCRIPTION
 cmd.extend("interface_analyse", interface_analyser)
 
 
+def interface_analyser_with_surface(name='all', chain_sur='A', dist_cutoff=10, animate=True):
+    cmd.select("interface", "none")
+    alphabet = list(('abcdefghijklmnopqrstuvwxyz').upper())
+    for letter in alphabet:
+        chainname = "chain" + letter
+        cmd.select(chainname, "%s and chain %s and not hetatm and not symbol w" % (name, letter))
+        if cmd.count_atoms("chain%s" % (letter)) > 0:
+            interfacename = "interface" + letter
+            cmd.select("not_this_chain", "%s and not hetatm and not symbol w and not %s" % (name, chainname))
+            cmd.select(interfacename, "%s and byres %s and (not_this_chain around %s)" % (name, chainname, str(dist_cutoff)))
+            cmd.select("interface", "interface or %s" % (interfacename))
+            cmd.delete("not_this_chain")
+            cmd.delete("interface" + letter)
+            cmd.delete("chain%s" % (letter))
+        else:
+            cmd.delete(chainname)
+    cmd.hide("lines", name)
+    cmd.show("lines", "interface")
+    cmd.show("cartoon")
+    cmd.dist("%s_h.bonds" % name, "interface", "interface", quiet=1, mode=2, label=0, reset=1,)
+    cmd.enable("%s_h.bonds" % name)
+    cmd.create("chain%s" % chain_sur, name + " and chain %s" % chain_sur, zoom=0)
+    cmd.show("surface", "chain%s" % chain_sur)
+    util.color_chains("(all and elem c)", _self=cmd)
+    if animate:
+        cmd.zoom("interface", animate=-1)
+        cmd.orient("interface", animate=-1)
+    cmd.delete("interface")
+    cmd.remove("(all) and hydro")
+cmd.extend("interface_analyse_with_surface", interface_analyser_with_surface)
+
+
 def load_and_analyse(list, dist_cutoff=10):
     '''
 DESCRIPTION
