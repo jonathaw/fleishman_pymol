@@ -111,6 +111,12 @@ def load_all_pdbs():
 
 cmd.extend("load_all_pdbs",load_all_pdbs)
 
+# Load all PDBs in the current directory that have MBR in their name
+def load_all_MBR_pdbs():
+	for fname in sorted(glob.glob('*MBR*.pdb')):
+		cmd.load(fname)
+
+cmd.extend("load_all_MBR_pdbs",load_all_MBR_pdbs)
 
 cmd.extend("zload",zload)
 cmd.extend('hilightPolar',hilightPolar)

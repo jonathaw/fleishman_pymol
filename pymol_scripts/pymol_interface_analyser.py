@@ -167,9 +167,9 @@ def show_pssm(pssm_file, selection='sele'):#, tell_1st_pdb_name=False, tell_2nd_
     ax.set_xlabel('Amino Acid')
     ax.set_title('PSSM for ' + selection_details['aa_type'] + str(int(selection_details['seq_position'])) +
                  '\nRed: current, Green: WT')
-    plt.savefig('/Users/jonathan/Desktop/test_1.png')
+    plt.savefig('/Volumes/MacintoshHD/Users/yoyo/Desktop/test_1.png')
     plt.close()
-    call(['open', '/Users/jonathan/Desktop/test_1.png'])
+    call(['open', '/Volumes/MacintoshHD/Users/yoyo/Desktop/test_1.png'])
     # call(['osascript', '~/PycharmProjects/pymol_stuff/move_preview_to_right_for_pssm_pymol\ copy.scpt'])
 cmd.extend("show_pssm", show_pssm)
 
