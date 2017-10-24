@@ -118,6 +118,9 @@ def load_all_MBR_pdbs():
 
 cmd.extend("load_all_MBR_pdbs",load_all_MBR_pdbs)
 
+def membrane_cage():
+    cmd.load('/Users/jonathaw/Documents/fleishman_pymol/pymol_scripts/membrane_cage.pdb')
+cmd.extend("membrane_cage", membrane_cage)
 cmd.extend("zload",zload)
 cmd.extend('hilightPolar',hilightPolar)
 cmd.extend('unhilightPolar',unhilightPolar)
